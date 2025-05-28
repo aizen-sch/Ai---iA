@@ -123,18 +123,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     resolve('نتا عطاي ');
                     } else if (lowerQuery.includes('ختك')) {
                     resolve('مك');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
-                    } else if (lowerQuery.includes('ckon')) {
-                    resolve('ali 7wak');
+                    } else if (lowerQuery.includes('ايزن')) {
+                    resolve('حاوي قحاب');
+                    } else if (lowerQuery.includes('فيداء')) {
+                    resolve('ايزن');
+                    } else if (lowerQuery.includes('زبي')) {
+                    resolve('تقبتك');
+                    } else if (lowerQuery.includes('عندك سوا')) {
+                    resolve('عندي زب');
+                    } else if (lowerQuery.includes('ممشوط')) {
+                    resolve('مولاي ');
+                    } else if (lowerQuery.includes('شكون ممشوط')) {
+                    resolve('الي حواك');
                     } else if (lowerQuery.includes('ckon')) {
                     resolve('ali 7wak');
                     } else if (lowerQuery.includes('ckon')) {
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (lowerQuery.includes('من انت')) {
                     resolve('الي حواك ,  تم تطويري بواسطة ايزن سوسكي.');
                 } else {
-                    resolve('تلفتهالي يا ولد قحبة');
+                    resolve('باغي ضاصرني نيك مك');
                 }
             }, 1000); 
         });
