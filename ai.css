@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(#37e8ff,#a59d9d); 
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.ppp{
+font-size: 20px;
+color: rgb(255, 255, 255);
+background-color: black;
+width: 200px;
+position: fixed;
+left: 250px;
+top: 360px;
+}
+
+
+.bub{
+    position: fixed;
+
+}
+
+
+
+header {
+    background-color: #2c3e50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    flex-grow: 1; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ai-interaction {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 700px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.chat-area {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; 
+    background-color: #f9fbfb;
+    border-bottom: 1px solid #eee;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word; 
+}
+
+.user-message {
+    background-color: #007bff; 
+    color: white;
+    align-self: flex-end; 
+    margin-left: auto;
+}
+
+.ai-message {
+    background-color: #f1f0f0; 
+    color: #333;
+    align-self: flex-start; 
+    margin-right: auto; 
+}
+
+.input-area {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 1em;
+    margin-right: 10px;
+    outline: none;
+}
+
+#user-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#send-button {
+    padding: 12px 25px;
+    background-color: #ff3bf5; 
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #ff00d4;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: auto; 
+}
+
+
+@media (max-width: 768px) {
+    .ai-interaction {
+        max-width: 95%;
+        min-height: 400px;
+    }
+    .input-area {
+        flex-direction: column;
+    }
+    #user-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #send-button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+.img{
+    width: 350px;
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .img{
+        display: none;
+    }
+    .ppp{
+        display: none;
+    }
+    .bub{
+        position: static;
+    }
+}
